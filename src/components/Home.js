@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home({ color, username, city }) {
+function Home({ color = "black", username = "User", city = "City" }) {  // Default props
   return (
     <div id="home">
       <h1 style={{ color: color }}>
